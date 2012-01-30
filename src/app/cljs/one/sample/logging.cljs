@@ -16,6 +16,14 @@ For more information see library.logging."}
 (dispatch/react-to (constantly true)
                    (fn [t d] (log/info logger (str (pr-str t) " - " (pr-str d)))))
 
+;; Zur Aktivierung des Logging in einem externen Fenster
+;; die folgende Zeile auskommentieren:
+; (log/start-display (log/fancy-output "Logging Fenster 1"))
+
+;; Zur Aktivierung des Logging in der JavaScript Konsole
+;; die folgende Zeile auskommentieren:
+; (log/start-display (log/console-output))
+
 (comment
   ;; log to the console
   (log/start-display (log/console-output))
