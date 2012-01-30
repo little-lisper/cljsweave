@@ -169,9 +169,9 @@ textarea {
 }
 
 /* ****************************************************************************************
- * 
+ *
  * MAIN
- * 
+ *
  **************************************************************************************** */
 body {
   background-color: #d3def7;
@@ -230,7 +230,7 @@ h1, h2 {
 
 h1 {
   font-family: "Chunkfive", serif;
-  font-size: 4.4em;
+  font-size: 4.0em;
 }
 
 h2 {
@@ -239,15 +239,22 @@ h2 {
   margin-bottom: 20px;
 }
 
+#link-collection h3 {
+  border-bottom: 3px dashed #d3def7;
+  font-size: 1.5em;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
 .section {
   padding: 30px 30px;
 }
 
 #index-header {
   background-image: url('/images/index-header.png');
-  height: 264px;
+  height: 290px;
   padding-bottom: 0;
-  padding-top: 80px;
+  padding-top: 60px;
 }
 
 #index-header p {
@@ -508,7 +515,7 @@ input.button.green, a.button.green {
     font-size: 1.3em;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8);
 }
-    
+
 input.button.green:hover, a.button.green:hover {
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
@@ -520,7 +527,7 @@ input.button.green:hover, a.button.green:hover {
     border: solid 1px #2e9c3a;
     border-bottom: solid 3px #116101;
 }
-    
+
 input.button.green:active, a.button.green:active {
     background: #43ad2e;
     border: solid 1px #6e883f;
